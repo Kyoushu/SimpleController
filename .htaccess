@@ -1,3 +1,5 @@
+DirectoryIndex index.html app.php
+
 <IfModule mod_rewrite.c>
 
     RewriteEngine On
