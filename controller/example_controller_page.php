@@ -2,6 +2,6 @@
 
 $metaTitle = 'Meta Title';
 $title = 'Example Controller Page';
-$body = '<p><a href="/">Homepage</a></p>';
+$body = '<p><a href="' . generateUrl('index') . '">Homepage</a></p>';
 
 include(__DIR__ . '/../view/page.php');
