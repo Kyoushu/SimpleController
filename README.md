@@ -22,7 +22,7 @@ Resolved Path
 
 ### Static HTML Example
 
-Example URL
+URL
 
     /example/page-name?something=else
 
