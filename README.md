@@ -4,7 +4,7 @@
 
 Requests are mapped to PHP controllers or static HTML by translating URLs to file paths.
 
-To generate the filename, the URI is transformed in the following way.
+To generate the filename, the request URL is transformed in the following way.
 
 - Converts URL to lower case
 - Strips all characters except for letters, numbers, dashes and forward slashes
