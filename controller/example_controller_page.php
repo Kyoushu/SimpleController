@@ -1,7 +1,11 @@
 <?php
 
-$metaTitle = 'Meta Title';
-$title = 'Example Controller Page';
-$body = '<p><a href="' . generateUrl('index') . '">Homepage</a></p>';
+namespace Kyoushu\SimpleController;
 
-include(__DIR__ . '/../view/page.php');
+// Custom logic goes here
+
+echo renderView('base', array(
+    'meta_title' => 'Example Controller Page',
+    'title' => 'Example Controller Page',
+    'body' => '<p><a href="/">Return to Homepage</a></p>'
+));
